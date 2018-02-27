@@ -6,8 +6,9 @@ evilpatterns = [
     ["HYPERLOO+P", "hyperloop"],
 ]
 
-asciipatterns = ["CALTRAAAAA+IN",
-"TRAAAAA+IN",
+asciipatterns = ["CALTRAAAAA+I+N",
+"BIIIIII+R+D",
+"TRAAAAA+I+N",
 "TERRAAAAA+IN",
 "PLAAAAA+NE",
 "BOAAAAA+T", 
@@ -45,6 +46,8 @@ asciis=[
 '       /     |-|         Cal\x0316,4train\x03            |.|  | |', 
 '      /    __|-|_____________________________|_|__|_|', 
 '     /____/<_>=<_>=<_>\_______________/<_>=<_>=<_>\_|='], [], []], 
+
+  load("asciis/bird.txt"),
 
 [['                        (  ) (@@) ( )  (@)  ()    @@', 
 '                   (@@@)', 

@@ -75,7 +75,7 @@ class run_trainbot(Thread):
         self.bot.disconnect()
         self.bot.connection.close()
 
-botnicks = ["tra1n", "tra2n", "tra3n"]
+botnicks = ["Fa1xx", "Fa2xx", "Fa3xx"]
 bots = {}
 for nick in botnicks:
     bot = run_trainbot("irc.freenode.net", 6667, nick, bots)

@@ -10,7 +10,7 @@ import urllib
 import asciis
 from trainbotpass import ownernick
 
-botnicks = ["tra1n", "tra2n", "tra3n"]
+botnicks = ["Fa1xx", "Fa2xx", "Fa3xx"]
 
 
 class trainbot(object):
@@ -31,7 +31,7 @@ class trainbot(object):
         pass
 
 
-class tra1nbot(trainbot):
+class Fa1xxbot(trainbot):
     def amsearch(self, c, name, channel, query):
         match = re.match("!amtrak (.*) to (.*) on (.*)", query)
         try:
@@ -229,7 +229,7 @@ class tra1nbot(trainbot):
             c.privmsg(botnicks[1], event.arguments[0])
 
 
-class tra2nbot(trainbot):
+class Fa2xxbot(trainbot):
     def on_privmsg(self, c, event):
         message = event.arguments[0].split(" ")
         if event.source.nick == botnicks[0]:
@@ -243,7 +243,7 @@ class tra2nbot(trainbot):
             c.privmsg(botnicks[2], event.arguments[0])
 
 
-class tra3nbot(trainbot):
+class Fa3xxbot(trainbot):
     def on_privmsg(self, c, event):
         message = event.arguments[0].split(" ")
         if event.source.nick == botnicks[1]:
